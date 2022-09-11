@@ -1,0 +1,13 @@
+Requirement:
+
+We would like to introduce the concept of item category and expand our discount policies to the entire category.
+If the client buys more than 3 items of the product within the same category, we are giving him 10% discount for all product in this category.
+
+Example:
+
+Given 3 products:
+ -> name: tea, pricePerUnit: 5.3, quantity: 2, category: drinks
+ -> name: coffee, pricePerUnit: 3.5, quantity: 2, category: drinks
+ -> name: cheese, pricePerUnit: 8, quantity: 2, category: food
+
+Expected total is: 9.54 (for tea) + 6.30 (for coffee) + 16 (for cheese) = 31.84

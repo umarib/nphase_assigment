@@ -1,0 +1,12 @@
+Requirement:
+
+We would like to reward the clients that are buying products in bulk.
+If the client buys more than 3 items of the same product, we are giving him 10% discount for this product.
+
+Example:
+
+Given 2 products:
+ -> name: tea, pricePerUnit: 5, quantity: 5
+ -> name: coffee, pricePerUnit: 3.5, quantity: 3
+
+Expected total is: 22.5 (for tea) + 10.5 (for coffee) = 33.0

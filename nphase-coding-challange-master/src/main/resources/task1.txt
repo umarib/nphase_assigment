@@ -1,0 +1,12 @@
+Requirement:
+
+Our company is building an online shop where users can add products to their shopping cart and pay for them.
+You are working on a shopping cart model and should properly calculate the proper amount that the user has to pay.
+
+Example:
+
+Given 2 products:
+ -> name: tea, pricePerUnit: 5, quantity: 1
+ -> name: coffee, pricePerUnit: 3.5, quantity: 2
+
+Expected total is: 12.0
